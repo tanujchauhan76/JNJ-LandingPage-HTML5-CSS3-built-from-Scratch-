@@ -72,14 +72,3 @@ div#pink_div4 {
     width: 82%;
 }
 }
-//* Smartphones (portrait) ----------- */
-/* Portrait */
-@media (max-width: 375px){ 
-body{
-	background-color: black;
-	color: blue;
-}
-.banner_content img {
-    height: 150px;
-}
-}
