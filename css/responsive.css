@@ -1,0 +1,18 @@
+/* Device (max-width: 1170px) */
+@media(max-width: 1170px){
+/*Top Section*/
+#bottom_div a{
+	padding: 50;
+	font-size: 1rem;
+}
+
+#main-container-agenda{
+	width: 82%;
+}
+div#pink_div3{
+	top: 16%;
+	width: 95%;
+	height: 85%;
+	
+}
+}

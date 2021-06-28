@@ -1,0 +1,82 @@
+/* iPhone X and Xs Max */
+/* Medium devices (landscape tablets, 768px and up) */
+@media (max-width: 375px) {
+    body h1 {
+
+        font-weight: 300;
+    }
+    p span, a span {
+        font-weight: 400;
+    }
+    .banner_content img {
+
+        width: 300px;
+        height: 300px;
+    }
+
+    div#content_div {
+        flex-direction: column;
+    }
+    .left_div {
+        width: 80%;
+    }
+    .h1-primary {
+        width: 100%;}
+    }
+    .left_div img {
+
+        height: 70%;
+    }
+    .right_div #outerdiv {
+        padding: 15px 10px;
+    }
+
+    #learnings {
+        width: 100%;
+        top: 1580px;
+        margin-bottom: 100px;
+    }
+    .right_div {
+        width: 90%;
+    }
+    .reasons-row img {
+        margin: 0% 5% 0% 0%;
+        width: 65px;
+        height: 70px;
+    }
+    #row-2 img {
+        margin-right: 6.5%;
+    }
+    .reasons-row p {
+        color: #FFF;
+        font-size: 14px;
+    }
+    #cta-section {
+        height: 40px;
+        top: 139%;
+        margin-right: 10%;
+    }
+    #bottom_div {
+        width: 78%;
+    }
+    #bottom_div a{
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+    #learnings {
+
+        top: 1450px;
+    }
+    #h1-learning 
+    {
+
+        margin-right: 0;
+
+    }
+  
+ #learnings .learning-container {
+    width: 100%;
+    height: 72%;
+    top: 70px;
+    font-size: 14px;
+}

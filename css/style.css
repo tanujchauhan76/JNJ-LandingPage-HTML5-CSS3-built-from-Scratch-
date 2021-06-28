@@ -1,0 +1,596 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	outline: none; 
+	font-family: 'Poppins', sans-serif;
+	
+}
+html{
+	scroll-behavior: smooth;
+}
+body h1{
+	font-family: 'Poppins', sans-serif;
+	font-weight: 400;
+}
+p{
+	font-family: 'Poppins', sans-serif;
+	font-weight: 300;
+	font-size: 17px;
+	color: #444444;
+
+}
+.responsive {
+	max-width: 100%;
+	height: auto;
+}
+.h1-primary{
+	width: 61%;
+	border-bottom: 2px solid #ed1c24;
+	margin: 0;
+	margin-bottom: 1rem;
+	color: #444444;
+}
+#h1-learning {
+	margin-top: 2%;
+	margin-right: 38%;
+	font-size: 2rem;    
+	color: #444444;
+}
+#h1-learning hr{
+	border: 1px solid #ed1c24;
+	width: 180px;
+	border-width: thin;
+}
+#h1-agenda {
+	margin-left: 10px;
+	font-size: 2rem;    
+	color: #444444;
+}
+
+#h-registration{
+	font-size: 2rem;    
+	color: #FFF;
+}
+#h-registration hr{
+	border: 1px solid #FFF;
+	width: 190px;
+	margin-bottom: 3%;
+}
+#h1-agenda hr{
+	border: 1px solid #ed1c24;
+	width: 170px;
+}
+#h-location{
+	font-size: 2rem;    
+	color: #444444;
+}
+#h-location hr{
+	border: 1px solid #ed1c24;
+	width: 170px;
+	margin-bottom: 3%;
+}
+
+/*Navigation Bar with social icons links*/
+.navbar{
+	height: 65px;
+	display: flex;
+	font-size: 22px;
+	margin-left: 19%;
+}
+.navbar ul {
+	display: flex;
+	list-style-type: none;
+}
+.fa{
+	padding: 10px;
+	text-decoration: none;
+	margin: 5px 2px;
+	color: #FFF;
+}
+.fa:hover{
+	color: #E66E64;
+}
+
+/*Home Page Section*/
+
+#home{
+	height: 100vh;
+	background: url('../asset/JNJ-landingpage-hero-image.jpg') no-repeat center center/cover;
+}
+
+.banner_image{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+
+}
+/* About OD 40/40 */
+#desc{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	width: 64%;
+	margin: 7% auto;
+	font-size: 1.5rem;
+
+}
+/* Top 5 Reasons Sections */
+h1 strong, p strong,#h1-learning span {
+	color: #006ecc;
+
+}
+p span, a span{
+	font-weight:500;
+
+}
+div#main_box{
+	width: 100%;
+	height: 950px;
+	background-color: #f6f6f6;
+	position: relative;
+	z-index: 204;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+div#pink_div{
+	position: absolute;
+	top: 24%;
+	right: 9%;
+	width: 62%;
+	height: 66%;
+	background-color: #fce8e9;
+	z-index: 1;
+}
+div#pink_div2{
+	position: absolute;
+	top: 15%;
+	left: 0;
+	width: 59%;
+	height: 74%;
+	background-color: #fce8e9;
+	z-index: 1;
+}
+div#dotted_div{
+	width: 100%;
+	height: 160%;
+	background-image: url('../asset/jnj-dots-pattern.png');
+	background-size:25px 25px;
+	position: absolute;
+	top: 17%;
+	z-index:2 ;		
+}
+
+div#content_div{
+	width: 64%;
+	height: 72%;
+	display: flex; 
+	position: absolute;
+	z-index: 4;
+	top: 8%;
+	
+
+}
+.reasons-row p span{
+	display: block;
+
+}
+.left_div{
+	width:32%;
+	height: 100%;
+	margin: 0 2%;
+	flex-grow: 2;
+}
+.left_div img{
+	width: 99%;
+	height: 58%;
+}
+
+.right_div{
+	width:60%;
+	height: 100%;
+	background-color: #ed1c24;
+	/*flex-basis: 350px;*/ /*when flex-direction is row basis is width and when it's coulumn basis is height*/
+}
+.right_div #outerdiv{
+	height: inherit;
+	padding: 30px 10px;
+}
+.reasons-row{
+	display: inline-flex;
+	width: 91%;
+	height: 80px;
+	color: #FFF;
+	margin: 22px 20px;
+	font-size: 1rem;
+	align-items: center ;
+
+}
+.reasons-row p{
+	color: #FFF;
+	font-size: 1rem;
+}
+.reasons-row img{
+	margin: 5% 6% 5% 5%;
+	width: 95px;
+	height: 100px;
+}
+#row-2 img{
+	margin-right:7.5%;
+}
+
+/*CTA Interested Apply Now Button*/
+#cta-section{
+	position: absolute;
+	width: 50%;  
+	height: 55px;
+	z-index: 5;
+	top: 86%;
+	right: 15%
+}
+#bottom_div{
+	display: flex;
+	width: 58%;
+	height: 100%;
+	background-color: #006ecc;
+	text-align: center;
+	cursor: pointer;
+}
+#bottom_div a{
+	color: #FFF;
+	padding: 10px 60px;
+	text-decoration: none;
+	font-size: 1.3rem;
+	font-family: 'Poppins', sans-serif;
+	font-weight: lighter;
+}
+#bottom_div:hover{
+	background-color: #ed1c24;
+
+}
+
+
+/*Learning Section Styling*/
+#learnings{
+	width: 100%;
+	height: 86%;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	background-color: #f6f6f6;
+	top: 920px;    
+	margin-bottom: 100px;
+
+}
+#learnings .learning-container{
+	width: 58%;
+	height: 72%;
+	display: flex; 
+	position: absolute;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	top: 130px;
+	z-index: 7;	
+	font-weight: bold;
+	font-size: 17px;
+	
+}
+.learning-container .item{
+	width: 142px;
+	height: 130px;
+	margin: 0px 10px;
+	padding: 20px;
+	text-align: center;
+	color: #444444;
+
+	
+}
+.learning-container .item img{
+	width: 92px;
+	height: 100px;
+	padding: 10px;
+	
+}
+/*Agenda Section*/
+#agenda{
+	width: 100%;
+	height: 780px;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	top: 850px;
+}
+
+div#pink_div3{
+	position: absolute;
+	top: 16%;
+	right: 0;
+	width: 90%;
+	height: 85%;
+	background-color: #fce8e9;
+	z-index: 1;
+}
+div#dotted_div2{
+	width: 100%;
+	height: 95%;
+	background-image: url('../asset/jnj-dots-pattern.png');
+	background-size:25px 25px;
+	position: absolute;
+	top: 10%;
+	z-index:2 ;		
+}
+
+
+#main-container-agenda{
+	display: flex;
+	width: 64%;
+	height: 93%;
+	display: flex;
+	z-index:3 ;		
+	flex-direction: column;
+}
+#main-container-agenda #row-2{
+	width: 100%;
+	height: 98%;
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+}
+#main-container-agenda .profile{
+	width: 32%;
+	height: 92%;
+	margin: 20px 10px;
+	padding: 10px;
+	text-align: center;
+	color: #FFF;
+	font-family: 'Poppins', sans-serif;
+	font-weight: normal;
+}
+#main-container-agenda #card-1{
+	background-color: #ed1c24;
+}
+#main-container-agenda #card-2
+{
+	background-color: #006ecc;
+}
+
+#main-container-agenda #card-3
+{
+	background-color: #ed1c24;
+}
+.profile h3{
+	font-weight: lighter;
+	letter-spacing: 2px;
+}
+.profile #person-1, #person-2, #person-3{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	margin: 15px 0;
+}
+.profile-icons img{
+	margin: 10px;
+	width: 50px;
+	height: 50px;
+}
+#main-container-agenda .profile p{
+	font-size: 14px;
+	color :white;
+}
+/*Location Section Styling*/
+
+#location{
+	width: 100%;
+	height: 780px;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	top: 850px;
+	margin: 6% 0;
+	z-index: 1;
+}
+div#pink_div4{
+	position: absolute;
+	top: 3%;
+	right: 20%;
+	width: 35%;
+	height: 70%;
+	background-color: #fce8e9;
+	z-index: 1;
+}
+div#dotted_div3{
+	width: 50%;
+	height: 20%;
+	background-image: url('../asset/jnj-dots-pattern.png');
+	background-size:25px 25px;
+	position: absolute;
+	top: 15%;
+	right: 2%;
+	z-index:3 ;		
+}
+
+#main-container-location{
+	width: 64%;
+	height: 98%;
+	display: flex;
+	z-index:2 ;		
+	flex-direction: column;
+	font-family: 'Poppins', sans-serif;
+	color: #444444;
+}
+#main-container-location img{
+	width:78% ;
+	height: 55%;
+}
+#main-container-location h2{
+	margin-bottom: 1%;
+	color: #ed1c24 ;
+	font-size: large;
+	font-weight: 400;
+} 
+#main-container-location p span{
+	color: #006ecc;
+	font-weight: bold;
+}
+/*Registration Section Styling*/
+#registration{
+	width: 100%;
+	height: 1280px;
+	background: url('../asset/JNJ-landingpage-registration-image.jpg') no-repeat center center/cover;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	top: 820px;z-index:1 ;		
+	margin: 6% 0;
+	color: #fff;
+}
+#registration p{
+	font-family: 'Poppins', sans-serif;
+	font-weight: 300;
+	font-size: 16px;
+	color: #FFF;
+}
+#main-container-registration{
+	width: 64%;
+	height: 70%;
+	display: flex;
+	z-index:2 ;		
+	flex-direction: column;
+	font-family: 'Poppins', sans-serif;
+	color: #444444;
+	
+}
+/* Registeration Form *//*Contact sectiom*/
+.form-wrapper{
+	max-width: 100%;
+	width: 100%;
+	margin: 20px auto;
+	
+}
+
+.form-wrapper .form{
+	width: 100%;
+}
+
+.form-wrapper .form .inputfield{
+	margin-bottom: 30px;
+	display: flex;
+	align-items: center;
+}
+
+.form-wrapper .form .inputfield label{
+	width: 200px;
+	color: #FFFF;
+	margin-right: 10px;
+	font-size: 16px;
+}
+
+.form-wrapper .form .inputfield .input,
+.form-wrapper .form .inputfield .textarea{
+	width: 100%;
+	height: 40px;
+	margin-right: 30px;
+	outline: none;
+	border: 1px solid #d5dbd9;
+	font-size: 15px;
+	padding: 8px 10px;
+	border-radius: 3px;
+	transition: all 0.3s ease;
+}
+
+.form-wrapper .form .inputfield .textarea{
+	width: 91%;
+	height: 100px;
+	resize: none;
+}
+
+.form-wrapper .form .inputfield p{
+	font-size: 14px;
+	color: #757575;
+}
+
+.form-wrapper .form .inputfield .btn:hover{
+	background: #ffff;
+}
+
+.form-wrapper .form .inputfield:last-child{
+	margin-bottom: 20px;
+	padding-left: 20px;
+	display: block;
+}
+.form-flex{
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 30px;
+}
+.form-flex .radio-btn-section{
+	width: 40%;
+	font-size: 14px;
+	color: white;
+
+}
+.form-flex .messagebox{
+	display: flex;
+
+}
+
+@media (max-width:420px) {
+	.form-wrapper .form .inputfield{
+		flex-direction: row;
+		align-items: flex-start;
+	}
+	.form-wrapper .form .inputfield label{
+		margin-bottom: 5px;
+	}
+	.form-wrapper .form .inputfield.terms{
+		flex-direction: row;
+	}
+}
+
+#Submit {
+	margin: auto;
+	display: flex;
+	width: 35%;
+	border: 0px;
+	background-color: #006ecc;
+	text-align: center;
+	justify-content: center;
+	color: white;
+	cursor:pointer;
+	padding: 10px 60px;
+	text-decoration: none;
+	font-size: 22px;
+	font-weight: lighter;
+	font-family: 'Poppins', sans-serif;
+}
+#Submit:hover{
+	background-color: #ed1c24;
+
+}
+/*Footer*/
+footer {
+	background-color: #006ecc;
+	width: 100%;
+	bottom: 0;
+	position: fixed;
+	z-index: 5;
+	font-size: 14px;
+}
+footer p{
+	color: #fff;
+	text-align: center;
+	padding: 5px 0;
+}
+
+@media (min-width:320px)  {
+	background-color:cyan;
+}
